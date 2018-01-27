@@ -28,5 +28,7 @@ public final class SearchCriteria { /* финал класс, содержащи
 	}
 	
 	private SearchCriteria() {}
+
+
 }
 
