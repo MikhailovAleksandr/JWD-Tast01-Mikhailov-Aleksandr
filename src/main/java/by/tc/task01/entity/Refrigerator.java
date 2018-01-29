@@ -1,14 +1,14 @@
 package by.tc.task01.entity;
-
+// а куда пропали equals и hashCode?
 public class Refrigerator extends Appliance{
-    String powerConsumption,
-    weight,
+    String powerConsumption,// ну и что это за оббъявление полей экземпляра класса?
+    weight, // кто не смотрел Java Code Convention?
     freezerCapacity,
     overallCapacity,
     height,
-    width;
+    width;// не жалей пробелов в коде и нормально его форматируй, такие недочеты тоже являются ошибками и за них я снимаю баллы
     public Refrigerator(){}
-    public Refrigerator(String ... args){
+    public Refrigerator(String ... args){// вот скажи, ты сам таким конструктором захочешь пользоваться - нет, рабираться надо и не ошибиться с параметрами - зачем тогда пишешь?
         this.powerConsumption = args[0];
         this.weight = args[1];
         this.freezerCapacity = args[2];
@@ -31,5 +31,5 @@ public class Refrigerator extends Appliance{
     public void setHeight(String value){ this.height = value; }
     public void setWidth(String value){ this.width = value; }
 
-    // you may add your own code here
+    // you may add your own code here //удалять такое надо, сдаешь, ведь проект
 }

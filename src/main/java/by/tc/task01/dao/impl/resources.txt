@@ -1,1 +1,2 @@
-source_name=../resources/appliances_db.txt
+source_name=../resources/appliances_db.txt  // не надо ресурсы так закладывать глубоко
+их выносят на src
