@@ -20,8 +20,8 @@ public final class SourceNameReader {
             BufferedReader buffer = new BufferedReader(new InputStreamReader(fstream));
             return buffer.readLine().split("[=]")[1];
         }
-        catch(Exception ex){
-            ex.fillInStackTrace();
+        catch(Exception ex){// Exception????????
+            ex.fillInStackTrace();// эм, а зачем ты тут вызываешь этот метод. Очень хочется спросить, знаешь ли ты зачем этот метод надо использовать
             return null;
         }
     }
