@@ -50,6 +50,9 @@ public class ApplianceSearcher {
         }
     }
 
+    // метод так и просится на рефакторинг
+    // не недоа один огромный алгоритм запихивать в один метод и для этого придумывать методу огромадное имя
+    // кроме имени метода у него есть еще параметры, что давать информацию о работе
     private static <E> boolean compareLineAndCriteria(Map<Object, Object> lineMeanings, Criteria<E> criteria){
 
         String lineKey, lineValue, criteriaKey, criteriaValue;
