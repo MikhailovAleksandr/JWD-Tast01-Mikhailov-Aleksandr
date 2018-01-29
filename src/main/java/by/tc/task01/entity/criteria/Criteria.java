@@ -10,7 +10,7 @@ public class Criteria<E> {
 	private String applianceType;
 
 	private Map<E, Object> criteria = new HashMap<E, Object>(); /*при создании объекта 
-									класса с типом дженерика E, ссыка типа Map указывает на HashMap*/
+									класса с типом дженерика E, ссыка типа Map указывает на HashMap*/ // эм, а без твоего коммента это было не понятно?
 	
 	public void add(E searchCriteria, Object value) { // перед-ся критерии, соотв-щие типу дженерика
 		criteria.put(searchCriteria, value);		  	
